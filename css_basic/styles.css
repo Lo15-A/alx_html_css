@@ -21,6 +21,7 @@ header ul {
   gap: 15px;
   margin-bottom: 30px;
   padding-left: 0;
+  align-items: center;
 }
 
 header ul li a {
@@ -35,6 +36,24 @@ header ul li a {
 header ul li a:hover {
   background-color: var(--lilac);
   color: var(--purple);
+}
+
+.logo a {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: var(--white);
+  background-color: var(--purple);
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  display: inline-block;
+  box-shadow: 0 2px 6px rgba(75, 0, 130, 0.6);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.logo a:hover {
+  color: var(--purple);
+  background-color: var(--white);
 }
 
 h1, h2, h3 {

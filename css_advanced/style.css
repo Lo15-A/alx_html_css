@@ -1,0 +1,245 @@
+/* Hero section */
+main section:first-of-type {
+  background: url("./images/object.png") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 20px;
+  color: #fff;
+}
+
+main section:first-of-type h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+main section:first-of-type span {
+  display: inline-block;
+  margin: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+main section:first-of-type button {
+  margin-top: 30px;
+  padding: 15px 30px;
+  font-size: 16px;
+  border: none;
+  background-color: #c271ff;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+main section:first-of-type button:hover {
+  background-color: #a04fd3;
+}
+
+/* Learn from the pros */
+main section:nth-of-type(1) h2 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #071629;
+}
+
+main section:nth-of-type(1) > div > div {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+main section:nth-of-type(1) > div > div > div {
+  text-align: center;
+}
+
+main section:nth-of-type(1) img {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+}
+
+/* Quote Section */
+main section:nth-of-type(2) {
+  background-color: #c271ff;
+  color: white;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main section:nth-of-type(2) blockquote {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 10px;
+  max-width: 400px;
+}
+
+main section:nth-of-type(2) h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main section:nth-of-type(2) p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+main section:nth-of-type(2) img {
+  border-radius: 50%;
+  height: 100px;
+  margin-top: 10px;
+}
+
+/* Tutorials Section */
+main section:nth-of-type(3) {
+  background-color: #f5f5f5;
+  padding: 60px 20px;
+}
+
+main section:nth-of-type(3) h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 32px;
+  color: #071629;
+}
+
+main section:nth-of-type(3) > div {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+main section:nth-of-type(3) > div img:first-child {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+main section:nth-of-type(3) h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+main section:nth-of-type(3) p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+main section:nth-of-type(3) h4 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+main section:nth-of-type(3) > div > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Membership Section */
+main section:nth-of-type(4) {
+  background-color: #071629;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+main section:nth-of-type(4) h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+main section:nth-of-type(4) > div {
+  display: inline-block;
+  margin: 20px;
+  max-width: 200px;
+}
+
+main section:nth-of-type(4) img {
+  height: 50px;
+}
+
+main section:nth-of-type(4) h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+main section:nth-of-type(4) p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+main section:nth-of-type(4) button {
+  margin-top: 40px;
+  padding: 15px 30px;
+  font-size: 16px;
+  border: none;
+  background-color: #c271ff;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* FAQ Section */
+main section:nth-of-type(5) {
+  padding: 60px 20px;
+}
+
+main section:nth-of-type(5) h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+main section:nth-of-type(5) h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #c271ff;
+}
+
+main section:nth-of-type(5) p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #071629;
+  color: white;
+  padding: 30px 20px;
+}
+
+footer section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer img {
+  height: 40px;
+}
+
+footer i {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+footer p {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}

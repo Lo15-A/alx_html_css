@@ -115,49 +115,83 @@ main section:nth-of-type(3) {
   padding: 60px 20px;
 }
 
-main section:nth-of-type(3) h2 {
+.popular {
+  background-color: white;
+  padding: 60px 40px;
   text-align: center;
-  margin-bottom: 40px;
-  font-size: 32px;
+}
+
+.popular h2 {
+  font-size: 28px;
   color: #071629;
 }
 
-main section:nth-of-type(3) > div {
+.popular h2 span {
+  color: #C271FF;
+}
+
+.video-list {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
   flex-wrap: wrap;
-  justify-content: center;
-  background-color: white;
-  border-radius: 10px;
-  padding: 20px;
+  margin-top: 40px;
 }
 
-main section:nth-of-type(3) > div img:first-child {
+.video-card {
+  width: 22%;
+  text-align: left;
+}
+
+.video-image {
+  position: relative;
+}
+
+.video-image img:first-child {
   width: 100%;
-  height: auto;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
-main section:nth-of-type(3) h3 {
-  font-size: 20px;
-  margin-top: 10px;
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  transform: translate(-50%, -50%);
 }
 
-main section:nth-of-type(3) p {
+.video-card h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.video-card p {
   font-size: 14px;
-  margin: 10px 0;
+  color: #aaa;
+  margin: 0 0 10px;
 }
 
-main section:nth-of-type(3) h4 {
-  font-size: 14px;
-  font-weight: normal;
-}
-
-main section:nth-of-type(3) > div > div {
+.video-info {
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: space-between;
 }
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.author img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.author h4 {
+  font-size: 14px;
+  color: #C271FF;
+}
+
 
 /* Membership Section */
 main section:nth-of-type(4) {

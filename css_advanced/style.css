@@ -300,31 +300,60 @@ main section:nth-of-type(4) .card p {
 
 
 /* Footer */
-footer {
+.footer {
   background-color: #071629;
   color: white;
-  padding: 30px 20px;
-}
-
-footer section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-footer img {
-  height: 40px;
-}
-
-footer i {
-  font-size: 20px;
-  margin: 0 10px;
-}
-
-footer p {
-  margin-top: 20px;
+  padding: 60px 0;
+  position: relative;
   width: 100%;
-  text-align: center;
-  font-size: 14px;
 }
+
+.footer-container {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footer-logo {
+  position: absolute;
+  left: 11.46%;
+  top: 38%;
+  transform: translateY(-50%);
+}
+
+.footer-logo img {
+  width: 40px; /* Adjust size to match design */
+  height: auto;
+}
+
+.footer-brand {
+  position: absolute;
+  left: 32.54%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Coiny', cursive;
+  font-size: 18px;
+  color: white;
+}
+
+.footer-socials {
+  position: absolute;
+  right: 7%;
+  top: 36%;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-socials img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.35;
+  margin-top: 100px;
+}
+

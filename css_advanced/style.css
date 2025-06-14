@@ -196,17 +196,23 @@ main section:nth-of-type(3) {
 /* Membership Section */
 main section:nth-of-type(4) {
   background-color: #071629;
+  background-image: none; / 
   color: white;
   text-align: center;
   padding: 60px 20px;
 }
-
 main section:nth-of-type(4) h2 {
   font-size: 32px;
   margin-bottom: 40px;
+  font-weight: 300;
 }
 
-main section:nth-of-type(4) > div {
+main section:nth-of-type(4) h2 span {
+  color: #C271FF; /* Purple for "Free" */
+  font-weight: bold;
+}
+
+main section:nth-of-type(4) .card {
   display: inline-block;
   margin: 20px;
   max-width: 200px;
@@ -227,7 +233,6 @@ main section:nth-of-type(4) p {
 }
 
 main section:nth-of-type(4) button {
-  margin-top: 40px;
   padding: 15px 30px;
   font-size: 16px;
   border: none;
@@ -237,9 +242,21 @@ main section:nth-of-type(4) button {
   border-radius: 30px;
   cursor: pointer;
 }
+main section:nth-of-type(4) .register-wrapper {
+  margin-top: 40px;
+}
+main section:nth-of-type(4) .card h3 {
+  color: #fff; /
+}
+
+main section:nth-of-type(4) .card p {
+  color: rgba(255, 255, 255, 0.6); /
+}
 
 /* FAQ Section */
 main section:nth-of-type(5) {
+  background-color: white; /
+  background-image: none;  /
   padding: 60px 20px;
 }
 

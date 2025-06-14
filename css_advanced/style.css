@@ -254,28 +254,50 @@ main section:nth-of-type(4) .card p {
 }
 
 /* FAQ Section */
-main section:nth-of-type(5) {
-  background-color: white; /
-  background-image: none;  /
-  padding: 60px 20px;
+.faq {
+  background-color: #ffffff;
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-main section:nth-of-type(5) h2 {
-  text-align: center;
+.faq h2 {
   font-size: 32px;
+  font-weight: bold;
+  color: #071629;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.faq-item {
+  max-width: 920px;
+  width: 100%;
   margin-bottom: 40px;
 }
 
-main section:nth-of-type(5) h3 {
+.faq-item h3 {
   font-size: 20px;
+  color: #071629;
+  font-weight: 600;
   margin-bottom: 10px;
-  color: #c271ff;
+  text-align: left;
 }
 
-main section:nth-of-type(5) p {
-  font-size: 14px;
-  margin-bottom: 20px;
+.faq-item p {
+  font-size: 16px;
+  color: rgba(7, 22, 41, 0.9);
+  line-height: 1.6;
+  text-align: left;
 }
+.faq-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 60px;
+  max-width: 920px;
+  width: 100%;
+}
+
 
 /* Footer */
 footer {

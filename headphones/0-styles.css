@@ -1,0 +1,148 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIABLES */
+:root {
+  --main-color: #FF6565;
+  --text-color: #ffffff;
+  --btn-opacity: 0.9;
+  --max-width: 1000px;
+  --font-stack: 'Source Sans Pro', sans-serif;
+}
+
+/* BASE STYLES */
+body {
+  font-family: var(--font-stack);
+  color: var(--text-color);
+}
+
+/* HERO SECTION */
+.hero {
+  background-image: url('headphones_hero_1.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px; 
+  padding: 20px 20px; 
+}
+
+/* NAVIGATION */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+  padding-top: 0;
+}
+
+.logo {
+  width: 150px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
+.nav-links a:hover,
+.nav-links a:active {
+  color: var(--main-color);
+}
+
+.hero-content {
+  margin-top: 250px; 
+}
+
+.hero-content h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+
+.btn {
+  background-color: var(--main-color);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: opacity 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  opacity: var(--btn-opacity);
+}
+
+.description {
+  font-size: 14px;
+  margin-top: 50px;
+  line-height: 1.6;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 480px) {
+  .nav {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 24px;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .description {
+    font-size: 13px;
+    padding: 0 10px;
+  }
+}
